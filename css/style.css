@@ -1230,6 +1230,22 @@ h3 {
   height: 300px;
 }
 
+.news_area p {
+  line-height: 2;
+}
+
+@media (max-width: 767px) {
+  .news_area h1 {
+    font-size: 22px;
+  }
+  .news_area h2 {
+    font-size: 18px;
+  }
+  .news_area p br {
+    display: none;
+  }
+}
+
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_feature.scss */
 .feature_area {
   padding-top: 150px;
@@ -1554,6 +1570,12 @@ h3 {
   color: #FEFAEF;
 }
 
+@media (max-width: 767px) {
+  .about_area .single_about_info h1 {
+    font-size: 22px;
+  }
+
+}
 /* line 25, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_about.scss */
 .about_area .single_about_info .about_thumb {
   overflow: hidden;
